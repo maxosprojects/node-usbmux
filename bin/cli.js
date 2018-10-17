@@ -61,7 +61,8 @@ function onErr(err) {
     panic('Usbmuxd not found at', usbmux.address, '\nFailing...');
   }
   // other
-  panic('%s \nFailing...', err);
+  // panic('%s \nFailing...', err);
+  console.error('%s \nFailing...', err);
 }
 
 /**
